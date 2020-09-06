@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123313281258",
+    "firebase_url": "https://hotquiz-1588756794176.firebaseio.com",
+    "project_id": "hotquiz-1588756794176",
+    "storage_bucket": "hotquiz-1588756794176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123313281258:android:79fc09bd168eddc4ee5f93",
+        "android_client_info": {
+          "package_name": "com.example.hotquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123313281258-41blqftfqpcsgppmh4pnff1lfk6bg6pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotquiz",
+            "certificate_hash": "1aac7097ca1be05a7cc12dae69831340c324c762"
+          }
+        },
+        {
+          "client_id": "123313281258-ccidnl1sbd52mthb93ukt4orl05ti8es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWN8pnrlMTmqGfFmGI7c3_dwc6bDXe-Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123313281258-ccidnl1sbd52mthb93ukt4orl05ti8es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

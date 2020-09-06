@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/single_player_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lib.game.models.fragments.Single_Player_Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_corners"
+        android:paddingLeft="6dp"
+        android:paddingTop="4dp"
+        android:paddingRight="6dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/singleplayer_header"
+            android:gravity="center"
+            android:text="Please Select a game category"
+            android:textColor="#FFFFFF"
+            app:autoSizeMaxTextSize="12sp"
+            app:autoSizeMinTextSize="8sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/nigeria_games_btn_id"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:background="@drawable/nigeria_game_category"
+            android:gravity="right|center_vertical"
+            android:paddingRight="40dp"
+            android:text="Nigeria Games"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="240dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/global_icon"
+            android:gravity="right|center_vertical"
+            android:paddingRight="40dp"
+            android:text="Global Games"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nigeria_games_btn_id"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/dancer"
+            android:layout_width="178dp"
+            android:layout_height="91dp"
+            android:src="@drawable/loading_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

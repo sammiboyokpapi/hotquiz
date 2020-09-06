@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">hotquiz</string>
+    <string name="Welcome_text">Welcome</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="location_string">Please provide your phone number</string>
+
+
+    <string name="name_label">Name</string>
+    <string name="full_name">Full Name</string>
+
+    <string name="code_verification_header">Waiting for phone verification OTP</string>
+
+    <string name="title_activity_single_player_load_page">single_player_load_page</string>
+</resources>
